@@ -1,0 +1,32 @@
+.contact .container .socials {
+ margin-top: 100px;
+ width: 50%;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: space-evenly;
+ -ms-flex-pack: space-evenly;
+ justify-content: space-evenly; 
+-webkit-box-align: center; 
+-ms-flex-align: center; 
+align-items: center;
+}
+
+ .contact .container .socials a {
+ text-decoration: none;
+ color: black;
+}
+ .contact .container .socials a i {
+ font-size: 1.5rem;
+ border: 2px solid black;
+ padding: 10px;
+ border-radius: 50%;
+ -webkit-transition: .4s; 
+transition: .4s;
+}
+
+ .contact .container .socials a i:hover {
+ -webkit-animation: shake .6s ease-out;
+ animation: shake .6s ease-out;
+ background-color: #504EC7; color: white; border-color: #504EC7;
+}
